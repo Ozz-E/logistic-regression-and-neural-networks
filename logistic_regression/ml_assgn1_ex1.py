@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from plot_sigmoid import *
 import os
 
+
 figures_folder = os.path.join(os.getcwd(), 'figures')
 if not os.path.exists(figures_folder):
     os.makedirs(figures_folder, exist_ok=True)
